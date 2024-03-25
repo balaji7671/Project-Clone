@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="List.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="header1">
+                <h1>My Todo-s</h1>
+            </div>
+            <div class="input_value">
+                <input type="text" placeholder="Write the task?" id="input_field">
+                <select name="options" id="options">
+                    <option>Select an Option</option>
+                    <option value="priority1">Priority 1</option>
+                    <option value="priority2">Priority 2</option>
+                </select>
+                <button onclick="add()">Add</button>
+            </div>
+        </div>
+        <hr>
+        <div class="main">
+            <div class="first_priority" id="first_priority">
+                <h3>Priority 1</h3>
+                <div class="first_list" id="first_list">
+                </div>
+            </div>
+
+            <div class="second_priority" id="second_priority">
+                <h3>Priority 2</h3>
+                <div class="second_list" id="second_list">
+                </div>
+            </div>
+            <!-- <div class="pop_up" id="pop_up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis qui tempora minima repudiandae illum assumenda itaque, repellat quod necessitatibus velit, eos exercitationem impedit iste, fugiat neque nulla atque molestias nesciunt.</p>
+                <div class="but">
+                    <button>Ok</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="List.js"></script>
+</body>
+
+</html>

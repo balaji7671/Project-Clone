@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Clone</title>
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .hero {
+            background: #f4f4f4;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .listings {
+            padding: 50px 0;
+        }
+
+        .listing {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .listing img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .listing-info h3 {
+            margin-bottom: 10px;
+        }
+
+        .listing-info p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .listing-info span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Airbnb Clone</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Find your perfect rental</h2>
+            <p>Discover amazing places to stay around the world.</p>
+            <a href="#" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <section class="listings">
+        <div class="container">
+            <h2>Featured Listings</h2>
+            <div class="listing">
+                <img src="https://via.placeholder.com/300" alt="Listing Image">
+                <div class="listing-info">
+                    <h3>Beautiful Apartment in Paris</h3>
+                    <p>Paris, France</p>
+                    <span>$200/night</span>
+                </div>
+            </div>
+            <!-- Add more listings here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Airbnb Clone. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
