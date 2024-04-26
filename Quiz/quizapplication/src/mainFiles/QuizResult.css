@@ -1,0 +1,29 @@
+.result{
+    padding: 2em;
+    font-size: 2em;
+    text-align: center;
+    border-top: 2px solid rgb(221, 221, 221);
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+
+.tryButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.tryButton button{
+    font-size: 1em;
+    font-weight: 600;
+    height: 2.5em;
+    width: 6em;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+#tryAgain{
+    background-color: blue;
+    color: white;
+    border: none;
+}

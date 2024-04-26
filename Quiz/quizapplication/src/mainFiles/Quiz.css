@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+body {
+    background-color: rgb(221, 249, 253);
+}
+
+.container {
+    margin: 2.5em auto;
+    max-width: 40em;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 0.7em;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.header h1 {
+    font-size: 4em;
+}
+
+.main-content {
+    border-top: 2px solid rgb(221, 221, 221);
+    border-bottom: 2px solid rgb(221, 221, 221);
+    background-color: #ffffff;
+}
+
+.main {
+    padding: 1em;
+}
+
+.main h4 {
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+}
+
+.options {
+    font-size: 1.2em;
+}
+
+.options ul {
+    list-style: none;
+}
+
+.options ul li {
+    padding: 0.7em;
+    border-radius: 1.5em;
+    border: 2px solid rgb(182, 182, 182);
+    margin: 0.7em;
+    width: 97%;
+    cursor: pointer;
+}
+
+.options ul li:hover {
+    background-color: rgb(79, 231, 79);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.footer button {
+    font-size: 1.5em;
+    height: 2em;
+    width: 4.5em;
+    cursor: pointer;
+    border-radius: 1.5em;
+    font-weight: 600;
+}
+
+#next {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.footer button:hover {
+    transform: scale(1.05);
+}
+
+.checked {
+    background-color: rgb(1, 183, 1);
+    font-weight: 500;
+  }
+  
